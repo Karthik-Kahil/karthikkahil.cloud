@@ -9,7 +9,6 @@ const StyledDiv = styled.div`
   margin-bottom: 5rem !important;
   color: var(--color-header-color);
   max-width: 800px !important;
-  align-items: end;
 
   & h4 {
     margin-bottom: 1rem;

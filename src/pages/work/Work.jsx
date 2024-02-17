@@ -83,12 +83,15 @@ function Work() {
           </GridSectionBox>
         </TwoColumnGrid>
         <TwoColumnGrid>
-          <GridSectionBox bgColor={"var(--grid-box-3)"}>
-            <p>HELP SCOUT</p>
-            <h4>AI</h4>
+          <GridSectionBox
+            bgColor={"var(--grid-box-3)"}
+            to={"/projects/emicalculator"}
+          >
+            <p>Simple</p>
+            <h4>EMI Calculator</h4>
             <figure>
               <img
-                src="./assets/TinyTweak - Compress WebP, PNG and JPEG images intelligently_ - tinytweak.karthikkahil.cloud.jpg"
+                src="./assets/emi_calculator-safari-window.png"
                 alt="TinyTweak"
               />
             </figure>

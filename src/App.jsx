@@ -6,6 +6,7 @@ import QwickBook from "./UI/QwickBook";
 import TinyTweak from "./UI/TinyTweak";
 import CaseMorph from "./UI/CaseMorph";
 import About from "./pages/about/About";
+import EmiCalculator from "./UI/EmiCalculator";
 
 function App() {
   return (
@@ -19,7 +20,14 @@ function App() {
             <Route path="/skill" element={<Work />}></Route>
             <Route path="/contact" element={<Work />}></Route>
             <Route path="/projects/qwickbook" element={<QwickBook />}></Route>
-            <Route path="/projects/tinytweak" element={<TinyTweak />}></Route>
+            <Route
+              path="/projects/tinytweak"
+              element={<EmiCalculator />}
+            ></Route>
+            <Route
+              path="/projects/emicalculator"
+              element={<TinyTweak />}
+            ></Route>
             <Route
               path="/projects/casemorphpro"
               element={<CaseMorph />}
