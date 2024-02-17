@@ -24,7 +24,7 @@ function InProgress() {
             bgColor={"var(--grid-box-5)"}
             to={"/projects/qwickbook"}
           >
-            <p>Advanced Doctor Appointment Booking Web Application</p>
+            <p>Advanced Doctor Appointment Booking Web App</p>
             <h4>QwickBook</h4>
             <figure>
               <img
@@ -33,14 +33,14 @@ function InProgress() {
               />
             </figure>
           </GridSectionBox>
-          <GridSectionBox bgColor={"var(--grid-box-6)"}>
-            <p>HELP SCOUT</p>
-            <h4>Articles</h4>
+          <GridSectionBox
+            bgColor={"var(--grid-box-6)"}
+            to={"/projects/chatbox"}
+          >
+            <p>Live Chat</p>
+            <h4>ChatBox</h4>
             <figure>
-              <img
-                src="./assets/TinyTweak - Compress WebP, PNG and JPEG images intelligently_ - tinytweak.karthikkahil.cloud.jpg"
-                alt="TinyTweak"
-              />
+              <img src="./assets/chat-safari-application.png" alt="TinyTweak" />
             </figure>
           </GridSectionBox>
         </TwoColumnGrid>

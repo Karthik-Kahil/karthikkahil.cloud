@@ -26,7 +26,7 @@ const ImageViewer = styled.img`
   width: 100%;
 `;
 
-function EmiCalculator() {
+function DiTimeSheet() {
   const ref = useRef(null);
   const location = useLocation();
 
@@ -53,18 +53,18 @@ function EmiCalculator() {
       <StyledDiv>
         <div>
           <Link
-            to={"https://apps.karthikkahil.cloud/emi_calculator/"}
+            to={"https://apps.karthikkahil.cloud/di_timesheet"}
             target="_blank"
             role="link"
           >
             <HeaderSection>
-              <h2 ref={ref}>EMI Calculator</h2>
+              <h2 ref={ref}>Timesheet</h2>
             </HeaderSection>
           </Link>
           <ProjectTimeLine>
             <div>
               <h4>Timeline</h4>
-              <p>June, 2023 - July, 2023</p>
+              <p>August, 2023</p>
             </div>
             <div>
               <h4>Tools utilized</h4>
@@ -83,37 +83,36 @@ function EmiCalculator() {
             </div>
           </ProjectTimeLine>
           <Link
-            to={"https://apps.karthikkahil.cloud/emi_calculator/"}
+            to={"https://apps.karthikkahil.cloud/di_timesheet"}
             target="_blank"
             role="link"
           >
-            <ImageViewer src={"/assets/emi_calculator-safari-window.png"} />
+            <ImageViewer src={"/assets/di-timesheet-safari-window.png"} />
           </Link>
           <OverView>
             <h2>Overview</h2>
             <p>
-              I developed a custom EMI calculator for a banking loan agency
-              using ReactJS. Collaborating closely with the client, I tailored
-              the application to their specific requirements, incorporating
-              features such as loan amount, interest rate, tenure, and
-              customizable options. The user interface was designed for
-              intuitive navigation, with real-time EMI calculations and
-              interactive elements like dynamic charts. <br />
+              The timesheet web application I&rsquo;ve developed revolutionizes
+              our office&rsquo;s time management and downtime tracking
+              processes. Its automated downtime capture eliminates manual input,
+              ensuring precise data recording and saving valuable time. With
+              advanced calculation features, it accurately measures downtime
+              durations, providing insights into productivity levels and
+              enabling proactive measures to minimize disruptions. <br />
               <br />
-              Throughout development, I maintained open communication with the
-              client, ensuring alignment with their vision through iterative
-              feedback. Rigorous testing ensured compatibility across devices
-              and browsers. The deployed web app has proven to be a valuable
-              asset for the agency, facilitating loan planning for both staff
-              and clients. This project highlights my commitment to delivering
-              tailored solutions that meet client needs effectively. <br />
+              Additionally, the application simplifies timesheet generation by
+              seamlessly compiling recorded data into Excel sheets. This
+              streamlined process not only reduces administrative burdens but
+              also ensures consistency and standardization in reporting. By
+              leveraging local storage for historical data, the application
+              enables trend analysis and strategic decision-making to optimize
+              workflows effectively.
               <br />
-              <i>
-                Please note that the screenshot shows an older version of the
-                application. I&rsquo;ve added unique features customized for
-                their website. However, I couldn&rsquo;t retrieve the React file
-                due to a computer crash.
-              </i>
+              <br />
+              Overall, our team benefits from a user-friendly interface,
+              automation capabilities, and robust features, making this
+              timesheet application an indispensable asset for maximizing
+              productivity and efficiency in our daily operations.
             </p>
           </OverView>
         </div>
@@ -122,4 +121,4 @@ function EmiCalculator() {
   );
 }
 
-export default EmiCalculator;
+export default DiTimeSheet;

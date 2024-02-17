@@ -5,7 +5,7 @@ import FooterCopyRight from "./FooterCopyRight";
 const StyledFooter = styled.footer`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 10rem 5%;
+  padding: 10rem 10%;
   max-width: 1500px;
   margin: auto;
 

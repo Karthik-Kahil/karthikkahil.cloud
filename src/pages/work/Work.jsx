@@ -78,7 +78,10 @@ function Work() {
             <p>Advance text formating tool</p>
             <h4>Casemorph Pro</h4>
             <figure>
-              <img src="./assets/casemorph-safari-window.png" alt="TinyTweak" />
+              <img
+                src="./assets/casemorph-safari-window.png"
+                alt="casemorph-pro"
+              />
             </figure>
           </GridSectionBox>
         </TwoColumnGrid>
@@ -87,22 +90,25 @@ function Work() {
             bgColor={"var(--grid-box-3)"}
             to={"/projects/emicalculator"}
           >
-            <p>Simple</p>
+            <p>Customized</p>
             <h4>EMI Calculator</h4>
             <figure>
               <img
                 src="./assets/emi_calculator-safari-window.png"
-                alt="TinyTweak"
+                alt="emi_calculator"
               />
             </figure>
           </GridSectionBox>
-          <GridSectionBox bgColor={"var(--grid-box-4)"}>
-            <p>HELP SCOUT</p>
-            <h4>Articles</h4>
+          <GridSectionBox
+            bgColor={"var(--grid-box-4)"}
+            to={"/projects/timesheet"}
+          >
+            <p>Advanced timesheet</p>
+            <h4>TimeSheet</h4>
             <figure>
               <img
-                src="./assets/TinyTweak - Compress WebP, PNG and JPEG images intelligently_ - tinytweak.karthikkahil.cloud.jpg"
-                alt="TinyTweak"
+                src="./assets/di-timesheet-safari-window.png"
+                alt="di-timesheet"
               />
             </figure>
           </GridSectionBox>
