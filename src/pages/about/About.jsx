@@ -91,7 +91,6 @@ function About() {
   const ref = useRef(null);
   const location = useLocation();
   const [weatherData, setWeatherData] = useState([]);
-  console.log(weatherData);
 
   useEffect(() => {
     fetchData()
