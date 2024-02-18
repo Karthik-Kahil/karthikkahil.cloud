@@ -11,7 +11,6 @@ import GridTwo from "./GridTwo";
 
 const StyledDiv = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20rem 5% 10rem 5%;
@@ -20,6 +19,13 @@ const StyledDiv = styled.div`
   & div {
     max-width: 1500px;
     margin: auto;
+  }
+
+  @media only screen and (max-width: 950px) {
+    & div {
+      max-width: 1500px;
+      margin: 0;
+    }
   }
 `;
 

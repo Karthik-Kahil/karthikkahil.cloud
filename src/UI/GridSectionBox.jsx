@@ -55,6 +55,11 @@ const StyledDiv = styled(Link)`
     top: 0;
     transition: 0.5s ease all;
   }
+
+  @media only screen and (max-width: 950px) {
+    min-height: 350px;
+    padding: 3rem;
+  }
 `;
 
 function GridSectionBox({ children, bgColor, to }) {

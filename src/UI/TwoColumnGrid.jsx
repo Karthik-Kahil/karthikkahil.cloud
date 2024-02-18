@@ -11,6 +11,11 @@ const StyledDiv = styled.div`
   max-width: 1500px;
   margin: auto;
   margin-bottom: 10rem;
+
+  @media only screen and (max-width: 1005px) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 4rem;
+  }
 `;
 
 function TwoColumnGrid({ children, leftGrid }) {

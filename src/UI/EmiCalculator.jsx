@@ -20,6 +20,13 @@ const StyledDiv = styled.div`
     max-width: 1500px;
     margin: auto;
   }
+
+  @media only screen and (max-width: 950px) {
+    & div {
+      max-width: 1500px;
+      margin: 0;
+    }
+  }
 `;
 
 const ImageViewer = styled.img`

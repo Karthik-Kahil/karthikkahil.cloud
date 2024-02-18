@@ -19,6 +19,20 @@ const StyledDiv = styled.div`
     text-align: center;
     margin-top: 3rem;
   }
+
+  @media only screen and (max-width: 1005px) {
+    & h2 {
+      font-size: 8rem;
+      line-height: 10rem;
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+    & h2 {
+      font-size: 6rem;
+      line-height: 7rem;
+    }
+  }
 `;
 
 function HeaderSection({ children, pad_bottom }) {

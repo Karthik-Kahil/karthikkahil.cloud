@@ -17,6 +17,10 @@ const StyledDiv = styled.section`
     max-width: 1500px;
     margin: auto;
   }
+
+  @media only screen and (max-width: 950px) {
+    padding: 20rem 5% 5rem 5%;
+  }
 `;
 
 const SkillSet = styled.div`
@@ -109,18 +113,21 @@ function Skill() {
             <img src="/assets/mongodb.png" alt="" />
           </figure>
         </SkillList>
-        <SkillList color={"#FFA447"}>
+        <SkillList color={"#C6A969"}>
           <div>
             <h4>Others.</h4>
             <p>
-              I possess an intermediate level of proficiency in MongoDB database
-              management, which I have utilized in my recent projects.
-              Additionally, I am actively deepening my understanding of advanced
-              technologies.
+              I possess advanced skills in digital emailers and banners,
+              including DCM, DCS, and DCO. Additionally, I have extensive
+              experience in ReactJS and am actively involved in projects within
+              my current organization. Furthermore, I have a solid understanding
+              of the latest web technologies, server-based configurations, and
+              computer hardware. I am also engaged in learning about the latest
+              advancements in AI technologies and data science.
             </p>
           </div>
           <figure>
-            <img src="/assets/mongodb.png" alt="" />
+            <img src="/assets/python.png" alt="" />
           </figure>
         </SkillList>
       </SkillSet>

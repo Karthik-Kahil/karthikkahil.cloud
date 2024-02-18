@@ -20,6 +20,10 @@ const StyledDiv = styled.section`
     max-width: 1500px;
     margin: auto;
   }
+
+  @media only screen and (max-width: 950px) {
+    padding: 20rem 8% 5rem 8%;
+  }
 `;
 
 const PersonalImage = styled.div`
@@ -74,6 +78,11 @@ const GridTwoSection = styled.div`
     font-size: 2rem;
     text-align: left;
     color: var(--color-header-color);
+  }
+
+  @media only screen and (max-width: 950px) {
+    grid-template-columns: auto;
+    grid-row-gap: 8rem;
   }
 `;
 

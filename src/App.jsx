@@ -10,6 +10,7 @@ import EmiCalculator from "./UI/EmiCalculator";
 import DiTimeSheet from "./UI/DiTimeSheet";
 import ChatBox from "./UI/ChatBox";
 import Skill from "./pages/skill/Skill";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <Route path="/" element={<Work />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/skill" element={<Skill />}></Route>
-            <Route path="/contact" element={<Work />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
             <Route path="/projects/qwickbook" element={<QwickBook />}></Route>
             <Route path="/projects/tinytweak" element={<TinyTweak />}></Route>
             <Route

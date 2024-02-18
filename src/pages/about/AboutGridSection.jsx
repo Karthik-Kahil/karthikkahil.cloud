@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Description = styled.div`
   padding-left: 30rem;
   padding-right: 10rem;
   margin-top: 10rem !important;
+  max-width: 1500px;
+  margin: auto;
 
   & h2 {
     font-family: "acorn-regular", sans-serif;
@@ -20,6 +23,16 @@ const Description = styled.div`
     color: var(--color-header-color);
     margin-bottom: 10rem !important;
   }
+
+  @media only screen and (max-width: 950px) {
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+    & h2 {
+      font-size: 4rem;
+      line-height: 5rem;
+    }
+  }
 `;
 
 const GridSection = styled.div`
@@ -30,9 +43,9 @@ const GridSection = styled.div`
   padding: 10rem;
   background-color: var(--color-nav);
   border-radius: 50px;
-  margin-top: 10rem !important;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-top: 10rem;
+  max-width: 1350px;
+  margin: auto;
 
   & div {
     display: flex;
@@ -57,14 +70,31 @@ const GridSection = styled.div`
     line-height: 3rem;
     color: var(--grid-section-text);
   }
+
+  @media only screen and (max-width: 950px) {
+    grid-template-columns: 1fr;
+    padding: 5rem;
+  }
 `;
 
 const ImageViewer = styled.div`
   display: grid;
   grid-template-columns: 1fr 0.5fr;
   grid-column-gap: 1.5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  max-width: 1350px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 950px) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    & div {
+      background-size: cover;
+      background-position: center;
+    }
+  }
 `;
 
 const ImageOne = styled.div`
@@ -89,73 +119,81 @@ function AboutGridSection() {
   return (
     <section>
       <Description>
-        <h2>
-          Let&lsquo;s collaborate if you&lsquo;re committed to sustainability,
-          education, equality, or carbon neutrality.
-        </h2>
+        <h2>Let&rsquo;s Collaborate on Exciting Projects and Technologies!</h2>
         <p>
-          I believe we should leave this Earth as good as or better than we
-          found it for future generations; my goal is to contribute to those
-          ideals in whatever way I can. If you feel the same, I&lsquo;d love to
-          talk.
+          Let&rsquo;s team up if you&rsquo;re working on innovative projects, AI
+          initiatives, or any other cutting-edge technologies. I&rsquo;m eager
+          to collaborate and bring my expertise to the table. Reach out, and
+          let&rsquo;s discuss how we can work together to make a difference!
         </p>
       </Description>
 
       <GridSection>
         <div>
           <h4>01</h4>
-          <h6>Make it</h6>
+          <h6>Identify Common Interests</h6>
           <p>
-            I sketch wireframes and make prototypes. Talking through tactile
-            designs existing in the browser is worth its weight. Design tools
-            only carry you so far; the rest should be realized with a link my
-            team can rally around.
+            Let&rsquo;s start by discussing our shared interests and goals.
+            Whether it&rsquo;s innovative projects, AI initiatives, or emerging
+            technologies, pinpointing our common ground is essential.
           </p>
         </div>
         <div>
           <h4>02</h4>
-          <h6>Collaborate</h6>
+          <h6>Explore Collaboration Opportunities</h6>
           <p>
-            I sketch wireframes and make prototypes. Talking through tactile
-            designs existing in the browser is worth its weight. Design tools
-            only carry you so far; the rest should be realized with a link my
-            team can rally around.
+            Once we&rsquo;ve identified common interests, let&rsquo;s explore
+            potential collaboration opportunities. This could involve
+            brainstorming project ideas, assessing our strengths and expertise,
+            and determining how we can complement each other.
           </p>
         </div>
         <div>
           <h4>03</h4>
-          <h6>Accessible FTW</h6>
+          <h6>Define Roles and Responsibilities</h6>
           <p>
-            I sketch wireframes and make prototypes. Talking through tactile
-            designs existing in the browser is worth its weight. Design tools
-            only carry you so far; the rest should be realized with a link my
-            team can rally around.
+            With collaboration opportunities in mind, let&rsquo;s define clear
+            roles and responsibilities for each team member. This ensures that
+            everyone knows their contributions and can work efficiently towards
+            our shared goals.
           </p>
         </div>
         <div>
           <h4>04</h4>
-          <h6>Keep experimenting</h6>
+          <h6>Establish Communication Channels</h6>
           <p>
-            I sketch wireframes and make prototypes. Talking through tactile
-            designs existing in the browser is worth its weight. Design tools
-            only carry you so far; the rest should be realized with a link my
-            team can rally around.
+            Effective communication is key to successful collaboration.
+            Let&rsquo;s establish communication channels, whether it&rsquo;s
+            through email, messaging platforms, or regular meetings, to stay
+            connected and informed throughout the collaboration process.
           </p>
         </div>
       </GridSection>
       <Description>
         <p>
-          Before I stepped into the world of product design, I was a web
-          developer. One of my earliest jobs involved writing HTML emails, in a
-          time before email linters. Lots of wishing, hoping, and finger
-          crossing that your email arrived in a recipient&lsquo;s inbox in one
-          piece. Coding emails forced me to understand how HTML and CSS play
-          together, a skill set I&lsquo;ve carried and kept fresh in the years
-          since. My side project work is just an excuse to satisfy my curiosity
-          about new technologies and understand how the web is moving forward.
-          Outside work, I enjoy good coffee near my home by the sea, listening
-          to and playing music, exploring the world with my partner, and playing
-          with my Labrottie pup, Louie.
+          I currently work as a front-end developer at{" "}
+          <Link
+            to={"https://www.tagww.com/"}
+            target="_blank"
+            style={{ textDecoration: "underline" }}
+          >
+            Tag India
+          </Link>{" "}
+          with three years of experience. My tasks involve creating emailers,
+          digital banners, and web projects using ReactJS and GSAP. Previously,
+          I was a digital designer at{" "}
+          <Link
+            to={"https://www.madrasglobal.com/"}
+            target="_blank"
+            style={{ textDecoration: "underline" }}
+          >
+            2adpro
+          </Link>
+          , where I made HTML banners and developed scripts for InDesign.
+          I&apos;ve also freelanced on projects like Qwickbook, a doctor
+          appointment booking app, where I handled full-stack development solo.
+          Additionally, I&apos;ve built my own apps, including TinyTweak, an
+          image conversion tool & much more.
         </p>
       </Description>
       <ImageViewer>

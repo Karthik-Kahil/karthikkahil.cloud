@@ -13,8 +13,20 @@ const StyledDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 13% 5% 10% 5%;
+  padding: 20rem 5% 10% 5%;
   width: 100%;
+
+  & div {
+    max-width: 1500px;
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 950px) {
+    & div {
+      max-width: 1500px;
+      margin: 0;
+    }
+  }
 `;
 
 const ImageViewer = styled.img`

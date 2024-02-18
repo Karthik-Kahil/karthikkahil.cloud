@@ -7,6 +7,10 @@ const Box = styled.span`
   border-radius: 5px;
   max-width: 1100px;
   margin: auto;
+
+  @media only screen and (max-width: 950px) {
+    display: none;
+  }
 `;
 
 const Nav = styled.nav`

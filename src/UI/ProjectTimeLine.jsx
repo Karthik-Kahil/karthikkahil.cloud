@@ -2,9 +2,10 @@
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 5rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 5rem;
   margin-top: 5rem !important;
   margin-bottom: 5rem !important;
   color: var(--color-header-color);
@@ -12,6 +13,11 @@ const StyledDiv = styled.div`
 
   & h4 {
     margin-bottom: 1rem;
+  }
+
+  @media only screen and (max-width: 950px) {
+    flex-direction: column !important;
+    gap: 5rem;
   }
 `;
 

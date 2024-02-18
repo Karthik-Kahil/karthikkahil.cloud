@@ -11,6 +11,16 @@ const StyledDiv = styled.div`
   border-radius: 10px;
   cursor: pointer;
 
+  @media only screen and (max-width: 950px) {
+    flex-direction: column-reverse;
+    gap: 3rem;
+
+    & figure {
+      align-items: center;
+      text-align: center;
+    }
+  }
+
   &:hover {
     background-color: var(--color-white);
   }
