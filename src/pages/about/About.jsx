@@ -7,6 +7,7 @@ import { SiYoutubemusic } from "react-icons/si";
 import HeaderSection from "../../UI/HeaderSection";
 import fetchData from "../../Util/weatherApi";
 import AboutGridSection from "./AboutGridSection";
+import GradientColor from "../../UI/GradientColor";
 
 const StyledDiv = styled.section`
   display: flex;
@@ -118,6 +119,7 @@ function About() {
 
   return (
     <>
+      <GradientColor />
       <StyledDiv>
         <div>
           <HeaderSection>

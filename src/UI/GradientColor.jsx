@@ -23,10 +23,10 @@ const GradientColorStyle = styled.div`
 `;
 
 const b1 =
-  "linear-gradient(217deg, #DAE7C0, #ff000000 70.71%), linear-gradient(127deg, #EAD3C9, #00ff0000 70.71%), linear-gradient(336deg, #CFECBA, #00ff0000 70.71%)";
+  "linear-gradient(217deg, #DAE7C0, rgba(173, 255, 47, 0.2) 70.71%), linear-gradient(127deg, #EAD3C9, rgba(173, 216, 230, 0.2) 70.71%), linear-gradient(336deg, #CFECBA, rgba(0, 128, 128, 0.2) 70.71%)";
 
 const b2 =
-  "linear-gradient(17deg, #F3EEE4, #ff005900 70.71%), linear-gradient(200deg, #E7B89C, #00ff3300 70.71%), linear-gradient(336deg, #CFECBA, #DDE5D41a 70.71%)";
+  "linear-gradient(17deg, #F3EEE4, rgba(152, 251, 152, 0.2) 70.71%), linear-gradient(200deg, #E7B89C, rgba(173, 216, 230, 0.2) 70.71%), linear-gradient(336deg, #CFECBA, rgba(0, 128, 128, 0.2) 70.71%)";
 
 function GradientColor() {
   const ref = useRef(null);
@@ -36,7 +36,13 @@ function GradientColor() {
 
     gsap.fromTo(
       el,
-      { width: "100%", height: 700, background: b1, zIndex: -2, opacity: 0.5 },
+      {
+        width: "100%",
+        height: "110vh",
+        background: b1,
+        zIndex: -1,
+        opacity: 0.6,
+      },
       {
         ease: "none",
         duration: 10,
@@ -44,7 +50,7 @@ function GradientColor() {
         repeat: -1,
         yoyo: true,
         zIndex: -1,
-        opacity: 0.5,
+        opacity: 0.6,
       }
     );
   }, []);

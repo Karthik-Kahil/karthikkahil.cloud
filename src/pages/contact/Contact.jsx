@@ -1,5 +1,11 @@
+import GradientColor from "../../UI/GradientColor";
+
 function Contact() {
-  return <div></div>;
+  return (
+    <>
+      <GradientColor />
+    </>
+  );
 }
 
 export default Contact;
