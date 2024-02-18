@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StyledDiv = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 10rem 10%;
+  padding: 10rem 10% 0 10%;
 
   & h2 {
     font-family: "acorn-bold", sans-serif;

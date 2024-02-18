@@ -12,7 +12,7 @@ const Box = styled.span`
 const Nav = styled.nav`
   display: flex;
   justify-content: center;
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
   width: 100%;
   position: fixed;
   z-index: 999;

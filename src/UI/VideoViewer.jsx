@@ -10,6 +10,8 @@ const StyledVideo = styled.video`
 `;
 
 const StyledDiv = styled.div`
+  margin-top: 10rem !important;
+
   & img {
     margin-bottom: -10px;
   }

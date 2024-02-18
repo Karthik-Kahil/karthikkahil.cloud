@@ -2,7 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 
-
 :root {
     --color-white: #ffffff;
     --color-primary: #EDE7DE;
@@ -71,7 +70,6 @@ body {
   color: var(--color-primary);
 }
 
-
 input,
 button,
 textarea,
@@ -129,7 +127,6 @@ h6 {
 
 img {
   max-width: 100%;
-  filter: grayscale(var(--image-grayscale)) opacity(var(--image-opacity));
 }
 `;
 

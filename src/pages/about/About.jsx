@@ -64,8 +64,8 @@ const GridTwoSection = styled.div`
   & h2 {
     font-family: "acorn-regular", sans-serif;
     color: var(--color-header-color);
-    font-size: 5rem;
-    line-height: 6rem;
+    font-size: 4rem;
+    line-height: 5rem;
     text-align: left;
     margin-bottom: 3rem;
   }
@@ -81,6 +81,7 @@ function About() {
   const ref = useRef(null);
   const location = useLocation();
   const [weatherData, setWeatherData] = useState([]);
+  console.log(weatherData);
 
   useEffect(() => {
     fetchData()
@@ -135,10 +136,16 @@ function About() {
             </div>
             <div>
               <h2>
-                I&rsquo;m a MERN Developer based in Chennai, Tamil Nadu, where
-                the current temperature is{" "}
-                {Math.floor(weatherData?.main?.temp) || 0}
-                °C.
+                I&rsquo;m a MERN Developer based in{" "}
+                {weatherData?.weather && weatherData.weather.length > 0
+                  ? weatherData.weather[0].main
+                  : ""}{" "}
+                Chennai, Tamil Nadu, where the temperature is a{" "}
+                {Math.floor(weatherData?.main?.temp) > 30
+                  ? "warm"
+                  : "comfortable"}{" "}
+                {Math.floor(weatherData?.main?.temp) || 0}°C.{" "}
+                {Math.floor(weatherData?.main?.temp) > 30 ? "🥵" : "😎"}
               </h2>
               <p>
                 Throughout my 5-year career, I&rsquo;ve engaged in various

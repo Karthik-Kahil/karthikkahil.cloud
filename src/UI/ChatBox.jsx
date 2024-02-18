@@ -87,8 +87,8 @@ function ChatBox() {
         <OverView>
           <h2>Overview</h2>
           <p>
-            I'm currently immersed in the development of Chatbox, a live chat
-            application powered by Node.js, MongoDB, and Socket.IO. With
+            I&rsquo;m currently immersed in the development of Chatbox, a live
+            chat application powered by Node.js, MongoDB, and Socket.IO. With
             React.js driving the frontend, the focus is on creating a seamless
             user experience. My current priority is researching Socket.IO to
             ensure the real-time communication backbone operates smoothly. Once
