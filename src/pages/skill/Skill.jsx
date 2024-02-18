@@ -72,7 +72,7 @@ function Skill() {
             </p>
           </div>
           <figure>
-            <img src="/assets/html-5.png" alt="" />
+            <img src="./assets/html-5.png" alt="" />
           </figure>
         </SkillList>
         <SkillList color={"#4A2A80"}>
@@ -84,7 +84,7 @@ function Skill() {
             </p>
           </div>
           <figure>
-            <img src="/assets/react.png" alt="" />
+            <img src="./assets/react.png" alt="" />
           </figure>
         </SkillList>
         <SkillList color={"#FFF67E"}>
@@ -96,7 +96,7 @@ function Skill() {
             </p>
           </div>
           <figure>
-            <img src="/assets/nodejs.png" alt="" />
+            <img src="./assets/nodejs.png" alt="" />
           </figure>
         </SkillList>
         <SkillList color={"#74E291"}>
@@ -110,7 +110,7 @@ function Skill() {
             </p>
           </div>
           <figure>
-            <img src="/assets/mongodb.png" alt="" />
+            <img src="./assets/mongodb.png" alt="" />
           </figure>
         </SkillList>
         <SkillList color={"#C6A969"}>
@@ -127,7 +127,7 @@ function Skill() {
             </p>
           </div>
           <figure>
-            <img src="/assets/python.png" alt="" />
+            <img src="./assets/python.png" alt="" />
           </figure>
         </SkillList>
       </SkillSet>

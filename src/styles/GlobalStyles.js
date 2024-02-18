@@ -33,20 +33,20 @@ const GlobalStyles = createGlobalStyle`
 @font-face {
   font-family: "acorn-regular";
   src:
-    url("/public/acorn-fonts/Acorn-Regular.woff") format("woff");
+    url("./assets/acorn-fonts/Acorn-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "acorn-medium";
   src:
-    url("/public/acorn-fonts/Acorn-Medium.woff") format("woff");
+    url("./assets/acorn-fonts/Acorn-Medium.woff") format("woff");
 }
 
 
 @font-face {
   font-family: "acorn-bold";
   src:
-    url("/public/acorn-fonts/Acorn-Bold.woff") format("woff");
+    url("./assets/acorn-fonts/Acorn-Bold.woff") format("woff");
 }
 
 
