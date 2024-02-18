@@ -14,8 +14,8 @@ function InProgress() {
       <HeaderSection pad_bottom={"8rem"}>
         <h2>In Progress.</h2>
         <p>
-          Work in various states of design and development, from side projects,
-          to in-flight product design and development.
+          I am currently involved in several full-stack development projects
+          that are in progress.
         </p>
       </HeaderSection>
       <Section>

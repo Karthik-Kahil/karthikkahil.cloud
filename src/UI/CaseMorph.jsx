@@ -90,22 +90,17 @@ function CaseMorph() {
           <OverView>
             <h2>Overview</h2>
             <p>
-              CaseMorph Pro stands as a powerful web application meticulously
-              crafted with ReactJS, catering to user&apos;s diverse needs in
-              text formatting and manipulation. It embodies a holistic solution,
-              seamlessly integrating advanced editing functionalities,
-              customizable features, and cross-platform compatibility. Driven by
-              a commitment to speed and user-friendliness, it empowers users to
-              effortlessly transform and refine text with precision and
-              efficiency.
-              <br /> <br /> Whether converting cases, refining whitespace, or
-              implementing custom formatting rules, CaseMorph Pro offers a
-              versatile toolkit to streamline text editing tasks. Its intuitive
-              interface ensures accessibility for users of varying skill levels,
-              while its robust performance guarantees swift execution, even with
-              large volumes of text. In essence, CaseMorph Pro emerges as an
-              indispensable ally for anyone seeking to enhance their text
-              editing workflow with ease and efficacy.
+              CaseMorph Pro is a powerful web app built with ReactJS, designed
+              for text formatting and manipulation. It offers advanced editing
+              features, customizable options, and works seamlessly across
+              different platforms. With a focus on speed and user-friendliness,
+              it makes text transformation effortless. <br /> <br />
+              Whether you&#39;re converting cases, adjusting whitespace, or
+              applying custom formatting, CaseMorph Pro has you covered. Its
+              simple interface caters to users of all levels, ensuring smooth
+              performance even with large amounts of text. Overall, it&#39;s a
+              must-have tool for anyone looking to improve their text editing
+              workflow with ease.
             </p>
           </OverView>
         </div>
