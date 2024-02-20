@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import NavList from "./NavList";
-import { CgFormatSlash } from "react-icons/cg";
 
 const Box = styled.span`
   border: 1.8px solid var(--color-nav-text-trans);

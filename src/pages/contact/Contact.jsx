@@ -36,7 +36,7 @@ function Contact() {
   const location = useLocation();
 
   useEffect(() => {
-    document.title = "Karthik Kahil • Skill";
+    document.title = "Karthik Kahil • Contact";
 
     document.documentElement.scrollTo({
       top: 0,
