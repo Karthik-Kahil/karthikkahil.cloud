@@ -58,11 +58,10 @@ function ChatBox() {
     <>
       <GradientColor />
       <StyledDiv>
-        <Link to={"https://qwickbook.com/"} target="_blank" role="link">
-          <HeaderSection>
-            <h2 ref={ref}>ChatBox</h2>
-          </HeaderSection>
-        </Link>
+        <HeaderSection>
+          <h2 ref={ref}>ChatBox</h2>
+        </HeaderSection>
+
         <ProjectTimeLine>
           <div>
             <h4>Timeline</h4>
