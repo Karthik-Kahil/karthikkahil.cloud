@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import GradientColor from "./GradientColor";
 import HeaderSection from "./HeaderSection";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import ProjectTimeLine from "./ProjectTimeLine";
 import { useEffect, useRef } from "react";
 import OverView from "./OverView";

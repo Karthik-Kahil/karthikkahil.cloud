@@ -65,7 +65,8 @@ const GridTwoSection = styled.div`
   grid-template-columns: auto auto;
   grid-column-gap: 8rem;
   margin-top: 7rem !important;
-  qsw3we & h2 {
+
+  & h2 {
     font-family: "acorn-regular", sans-serif;
     color: var(--color-header-color);
     font-size: 4rem;
