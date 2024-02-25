@@ -11,8 +11,11 @@ import DiTimeSheet from "./UI/DiTimeSheet";
 import ChatBox from "./UI/ChatBox";
 import Skill from "./pages/skill/Skill";
 import Contact from "./pages/contact/Contact";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => []);
+
   return (
     <>
       <GlobalStyles />
