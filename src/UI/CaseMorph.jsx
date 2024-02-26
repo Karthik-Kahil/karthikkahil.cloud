@@ -85,7 +85,11 @@ function CaseMorph() {
             </div>
           </ProjectTimeLine>
           <Link to={url} target="_blank" role="link">
-            <ImageViewer src={"/assets/casemorph-safari-window.png"} />
+            <ImageViewer
+              src={
+                "https://apps.karthikkahil.cloud/img/casemorph-safari-window.png"
+              }
+            />
           </Link>
           <OverView>
             <h2>Overview</h2>

@@ -104,7 +104,11 @@ function TinyTweak() {
             target="_blank"
             role="link"
           >
-            <ImageViewer src={"/assets/tinyTweaks-safari-window.png"} />
+            <ImageViewer
+              src={
+                "https://apps.karthikkahil.cloud/img/tinyTweaks-safari-window.png"
+              }
+            />
           </Link>
           <OverView>
             <h2>Overview</h2>
@@ -138,7 +142,7 @@ function TinyTweak() {
               savings for website owners.
             </p>
           </OverView>
-          <VideoViewer path="/assets/8665a9a9-da30-478f-abd1-89a18bb39e94.mp4" />
+          <VideoViewer path="https://apps.karthikkahil.cloud/img/8665a9a9-da30-478f-abd1-89a18bb39e94.mp4" />
         </div>
       </StyledDiv>
     </>

@@ -94,7 +94,11 @@ function DiTimeSheet() {
             target="_blank"
             role="link"
           >
-            <ImageViewer src={"/assets/di-timesheet-safari-window.png"} />
+            <ImageViewer
+              src={
+                "https://apps.karthikkahil.cloud/img/di-timesheet-safari-window.png"
+              }
+            />
           </Link>
           <OverView>
             <h2>Overview</h2>

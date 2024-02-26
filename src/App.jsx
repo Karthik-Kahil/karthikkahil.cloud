@@ -14,7 +14,7 @@ import Contact from "./pages/contact/Contact";
 import { useEffect } from "react";
 
 function App() {
-  useEffect(() => []);
+  // useEffect(() => []);
 
   return (
     <>

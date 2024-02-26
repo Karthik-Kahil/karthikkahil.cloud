@@ -93,7 +93,11 @@ function ChatBox() {
           </div>
         </ProjectTimeLine>
 
-        <ImageViewer src={"/assets/chat-safari-application.png"} />
+        <ImageViewer
+          src={
+            "https://apps.karthikkahil.cloud/img/chat-safari-application.png"
+          }
+        />
 
         <OverView>
           <h2>Overview</h2>

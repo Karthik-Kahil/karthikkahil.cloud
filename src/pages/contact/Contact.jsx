@@ -67,7 +67,10 @@ function Contact() {
                 <h4>G-Mail</h4>
               </div>
               <figure>
-                <img src="./assets/google-gmail.png" alt="" />
+                <img
+                  src="https://apps.karthikkahil.cloud/img/google-gmail.png"
+                  alt=""
+                />
               </figure>
             </ContactList>
           </Link>
@@ -80,7 +83,10 @@ function Contact() {
                 <h4>LinkedIn</h4>
               </div>
               <figure>
-                <img src="./assets/linkedin.png" alt="" />
+                <img
+                  src="https://apps.karthikkahil.cloud/img/linkedin.png"
+                  alt=""
+                />
               </figure>
             </ContactList>
           </Link>

@@ -75,7 +75,10 @@ function Skill() {
               </p>
             </div>
             <figure>
-              <img src="./assets/html-5.png" alt="" />
+              <img
+                src="https://apps.karthikkahil.cloud/img/html-5.png"
+                alt=""
+              />
             </figure>
           </SkillList>
           <SkillList color={"#4A2A80"}>
@@ -87,7 +90,7 @@ function Skill() {
               </p>
             </div>
             <figure>
-              <img src="./assets/react.png" alt="" />
+              <img src="https://apps.karthikkahil.cloud/img/react.png" alt="" />
             </figure>
           </SkillList>
           <SkillList color={"#FFF67E"}>
@@ -99,7 +102,10 @@ function Skill() {
               </p>
             </div>
             <figure>
-              <img src="./assets/nodejs.png" alt="" />
+              <img
+                src="https://apps.karthikkahil.cloud/img/nodejs.png"
+                alt=""
+              />
             </figure>
           </SkillList>
           <SkillList color={"#74E291"}>
@@ -113,7 +119,27 @@ function Skill() {
               </p>
             </div>
             <figure>
-              <img src="./assets/mongodb.png" alt="" />
+              <img
+                src="https://apps.karthikkahil.cloud/img/mongodb.png"
+                alt=""
+              />
+            </figure>
+          </SkillList>
+          <SkillList color={"#0F1110"}>
+            <div>
+              <h4>GSAP</h4>
+              <p>
+                I specialize in using GSAP to create professional-level
+                animations for websites. With an intermediate skill level in the
+                GSAP library, I ensure that every website I work on stands out
+                with engaging animations.
+              </p>
+            </div>
+            <figure>
+              <img
+                src="https://apps.karthikkahil.cloud/img/391742802_805876058211946_8390445651657770848_n.jpg"
+                alt=""
+              />
             </figure>
           </SkillList>
           <SkillList color={"#C6A969"}>
@@ -131,7 +157,10 @@ function Skill() {
               </p>
             </div>
             <figure>
-              <img src="./assets/python.png" alt="" />
+              <img
+                src="https://apps.karthikkahil.cloud/img/python.png"
+                alt=""
+              />
             </figure>
           </SkillList>
         </SkillSet>

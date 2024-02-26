@@ -28,7 +28,7 @@ function InProgress() {
             <h4>QwickBook</h4>
             <figure>
               <img
-                src="./assets/Safari (Catalina) - Dark.png"
+                src="https://apps.karthikkahil.cloud/img/Safari (Catalina) - Dark.png"
                 alt="TinyTweak"
               />
             </figure>
@@ -40,7 +40,10 @@ function InProgress() {
             <p>Live Chat</p>
             <h4>ChatBox</h4>
             <figure>
-              <img src="./assets/chat-safari-application.png" alt="TinyTweak" />
+              <img
+                src="https://apps.karthikkahil.cloud/img/chat-safari-application.png"
+                alt="TinyTweak"
+              />
             </figure>
           </GridSectionBox>
         </TwoColumnGrid>

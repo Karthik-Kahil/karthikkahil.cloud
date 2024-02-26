@@ -94,7 +94,11 @@ function EmiCalculator() {
             target="_blank"
             role="link"
           >
-            <ImageViewer src={"/assets/emi_calculator-safari-window.png"} />
+            <ImageViewer
+              src={
+                "https://apps.karthikkahil.cloud/img/emi_calculator-safari-window.png"
+              }
+            />
           </Link>
           <OverView>
             <h2>Overview</h2>
