@@ -98,7 +98,6 @@ function ChatBox() {
             "https://apps.karthikkahil.cloud/img/chat-safari-application.png"
           }
         />
-
         <OverView>
           <h2>Overview</h2>
           <p>
