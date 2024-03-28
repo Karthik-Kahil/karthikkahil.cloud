@@ -60,7 +60,7 @@ function EmiCalculator() {
       <StyledDiv>
         <div>
           <Link
-            to={"https://apps.karthikkahil.cloud/emi_calculator/"}
+            to={"https://emicalc.karthikkahil.cloud/personal?type=personal"}
             target="_blank"
             role="link"
           >
@@ -90,15 +90,11 @@ function EmiCalculator() {
             </div>
           </ProjectTimeLine>
           <Link
-            to={"https://apps.karthikkahil.cloud/emi_calculator/"}
+            to={"https://emicalc.karthikkahil.cloud/personal?type=personal"}
             target="_blank"
             role="link"
           >
-            <ImageViewer
-              src={
-                "https://apps.karthikkahil.cloud/img/emi_calculator-safari-window.png"
-              }
-            />
+            <ImageViewer src={"/assets/emi_calculator-safari-window.png"} />
           </Link>
           <OverView>
             <h2>Overview</h2>

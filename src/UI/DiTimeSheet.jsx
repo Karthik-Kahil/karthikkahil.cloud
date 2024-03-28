@@ -60,7 +60,7 @@ function DiTimeSheet() {
       <StyledDiv>
         <div>
           <Link
-            to={"https://apps.karthikkahil.cloud/di_timesheet"}
+            to={"https://timesheet.karthikkahil.cloud/"}
             target="_blank"
             role="link"
           >
@@ -90,15 +90,11 @@ function DiTimeSheet() {
             </div>
           </ProjectTimeLine>
           <Link
-            to={"https://apps.karthikkahil.cloud/di_timesheet"}
+            to={"https://timesheet.karthikkahil.cloud/"}
             target="_blank"
             role="link"
           >
-            <ImageViewer
-              src={
-                "https://apps.karthikkahil.cloud/img/di-timesheet-safari-window.png"
-              }
-            />
+            <ImageViewer src={"/assets/di-timesheet-safari-window.png"} />
           </Link>
           <OverView>
             <h2>Overview</h2>

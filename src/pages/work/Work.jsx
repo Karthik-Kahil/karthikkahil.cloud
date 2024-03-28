@@ -66,7 +66,7 @@ function Work() {
             <h4>TinyTweak</h4>
             <figure>
               <img
-                src="https://apps.karthikkahil.cloud/img/tinyTweaks-safari-window.png"
+                src="./assets/tinyTweaks-safari-window.png"
                 alt="TinyTweak"
               />
             </figure>
@@ -79,7 +79,7 @@ function Work() {
             <h4>Casemorph Pro</h4>
             <figure>
               <img
-                src="https://apps.karthikkahil.cloud/img/casemorph-safari-window.png"
+                src="./assets/casemorph-safari-window.png"
                 alt="casemorph-pro"
               />
             </figure>
@@ -94,7 +94,7 @@ function Work() {
             <h4>EMI Calculator</h4>
             <figure>
               <img
-                src="https://apps.karthikkahil.cloud/img/emi_calculator-safari-window.png"
+                src="./assets/emi_calculator-safari-window.png"
                 alt="emi_calculator"
               />
             </figure>
@@ -107,7 +107,7 @@ function Work() {
             <h4>TimeSheet</h4>
             <figure>
               <img
-                src="https://apps.karthikkahil.cloud/img/di-timesheet-safari-window.png"
+                src="./assets/di-timesheet-safari-window.png"
                 alt="di-timesheet"
               />
             </figure>

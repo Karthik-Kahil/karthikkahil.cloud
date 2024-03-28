@@ -94,9 +94,7 @@ function QwickBook() {
         </ProjectTimeLine>
         <Link to={"https://qwickbook.com/"} target="_blank" role="link">
           <ImageViewer
-            src={
-              "https://apps.karthikkahil.cloud/img/Safari (Catalina) - Dark 2.35.37 AM.jpg"
-            }
+            src={"/assets/Safari (Catalina) - Dark 2.35.37 AM.jpg"}
           />
         </Link>
         <OverView>

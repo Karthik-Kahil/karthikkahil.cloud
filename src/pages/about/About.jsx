@@ -32,7 +32,7 @@ const PersonalImage = styled.div`
   height: 300px;
   border-radius: 200px 200px 0 0;
   background-size: cover;
-  background-image: url("https://apps.karthikkahil.cloud/img/304cf4a5-a39a-4865-a5fc-117056ef2f84.jpeg");
+  background-image: url("./assets/304cf4a5-a39a-4865-a5fc-117056ef2f84.jpeg");
   background-repeat: no-repeat;
 `;
 

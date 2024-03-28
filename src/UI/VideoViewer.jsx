@@ -21,7 +21,7 @@ function VideoViewer({ path }) {
   return (
     <StyledDiv>
       <Link to={"https://tinytweak.karthikkahil.cloud/"} target="_blank">
-        <img src="/assets/safari-frame-browser.webp" alt="" />
+        <img src="./assets/safari-frame-browser.webp" alt="" />
         <StyledVideo loop muted autoPlay={true} onFocus>
           <source src={path} />
         </StyledVideo>
